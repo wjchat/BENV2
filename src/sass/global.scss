@@ -1,0 +1,18 @@
+$black: #252525;
+$white: #fffafa;
+$sans: "Lato", sans-serif;
+
+@mixin header{
+    font-family: $sans;
+    font-weight: 400;
+    font-size: 3vw;
+}
+@mixin subheader{
+    font-family: $sans;
+    font-weight: 900;
+    font-size: 7vw;
+}
+body{
+    background-color: $black;
+    color: $white;
+}
